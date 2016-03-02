@@ -3,20 +3,32 @@
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
-    <title>airBo</title>
+    <title>Airbnb</title>
   </head>
   <body>
     <div class="wrapper">
-      <header class="top">
-        <!-- <nav>
-          <ul>
-            <li></li>
-          </ul>
-        </nav> -->
-        <h1>WELCOME HOME</h1>
-        <h5>Rent Unique places to stay from local hosts in 190+ countries.</h5>
-        <button type="button" name="button">How it Works</button>
-        <form class="flex-form">
+
+
+      <header class="top"> <!--start header-->
+        <div class="navbar">
+          <div class="logo">
+            <a href="#"><img src="img/logo.png"></a>
+          </div>
+          <div class="navLinks">
+            <a href="#"><button type="button" name="button">Become a Host</button></a>
+            <a href="#">Help</a>
+            <a href="#">Sign Up</a>
+            <a href="#">Log In</a>
+          </div>
+        </div>
+
+        <div class="headerInfo">
+          <h1>WELCOME HOME</h1>
+          <h5>Rent Unique places to stay from local hosts in 190+ countries.</h5>
+          <button type="button" name="button">How it Works</button>
+        </div>
+
+        <form class="flex-form"> <!--start form-->
           <input type="search" placeholder="Where do you want to go?">
 
           <label for="from">From</label>
@@ -33,11 +45,12 @@
             <option value="5">5 Guest</option>
           </select>
           <input type="submit" value="search">
-        </form>
-      </header>
+        </form> <!--end form-->
+      </header> <!--end header-->
+
 
       <div class="first">
-        <img class="Island" src="" alt="" />
+        <img class="Island" src="img/island.png" alt="" />
         <h4>Start your advernture with</h4>
         <h1>$100</h1>
         <button type="button" name="button">Live on a Private Island</button>
@@ -45,6 +58,7 @@
             * <a href="#"> Terms and conditions</a> apply
         </p>
       </div>
+
       <h1>Recently viewed places</h1>
       <h5>Pick up where you left off</h5>
       <div class="image">
